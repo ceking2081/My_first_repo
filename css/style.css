@@ -113,16 +113,27 @@ p {
     color: #555e66;
 }
 
-.scopeMenu {
-    max-width: 200px;
-    max-height: 200px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #D3E6F3;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.scopeMenu-container {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
+.contentHolder {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: #D3E6F3;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.montanaFront {
+    height: 100px;
+    width: 200px;
+}
