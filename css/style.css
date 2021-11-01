@@ -106,7 +106,7 @@ p {
 /* Montana Case Study Section */
 .montana {
     font-family: 'Montserrat', sans-serif;
-    padding: 100px 100px;
+    padding: 50px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -114,26 +114,36 @@ p {
 }
 
 .scopeMenu-container {
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-
-.contentHolder {
-    position: absolute;
-    height: 500px;
-    width: 500px;
-    background-color: #D3E6F3;
+    margin: 10px;
+    padding: 25px;
     border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    background-color: #D3E6F3;
 }
 
 .montanaFront {
-    height: 100px;
-    width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.ohio-image {
+    margin: 10px;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: #D3E6F3; 
+}
+
+.ohio {
+    background-color: #555e66;
+    color: white;
+    margin: 0;
+    padding: 50px;
+}
+
+.colType {
+    margin: auto;
+}
+
+.ohioFront {
+    width: 100%;
+    height: auto;
 }
